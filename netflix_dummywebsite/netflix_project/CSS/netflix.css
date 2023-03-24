@@ -1,0 +1,253 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    /* background-image: url("../HTML/images/background_image.jpg"); */
+    background-color: grey;
+}
+  .main_bar{
+    /* margin: -50px; */
+
+    height: 640px;
+    /* width: ; */
+    /* background-image:  */
+    background-image: linear-gradient(rgba(14, 3, 3, 0.993),rgba(20, 20, 20, 0.788),rgba(14,3,3,0.993) ),url("../HTML/images/background_image.jpg");;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    opacity: 1.0;
+}
+.nav_bar{
+    z-index: 1;
+}
+.nav_bar img{
+    float:left;
+    padding: 25px 0px 0px 120px; 
+    opacity: 1;
+}
+.nav_bar select{
+    text-align: center;
+    float: right;
+margin: 35px 20px 0px 0px;
+border: 1px solid white;
+border-radius: 5px;
+background: transparent;
+color: white;
+/* backface-visibility: hidden; */
+
+
+height: 25px;
+width: 102px;
+}
+.nav_bar button{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    margin: 35px 100px 0px 0px;
+    /* padding-left: 10px */
+    height: 25px;
+    width: 80px;
+}
+.info{
+    text-align: center;
+    /* font-size: larger; */
+    padding-top:220px ;
+    color: white;
+}
+.info h1{
+    
+    font-size: 38px;
+}
+.info h2{
+    padding: 10px 0px;
+    font-size: 25px;
+}
+.info h3{
+
+    font-size: 18px;
+}
+.register{
+    text-align: center;
+    padding-top: 10px;
+}
+.register form input{
+    width: 350px;
+    height: 60px;
+    background:transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-weight: bold;
+    color: white;
+}
+.register form button{
+    width: 180px;
+    height: 60px;
+    font-weight: bold;
+    
+    background-color: rgb(168, 12, 12);
+    
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-left: 3px;
+}
+.enjoy_tv{
+    height: 550px;
+    text-align: left;
+    margin-top: 10px;
+    background-color: black;
+}
+.content{
+    color: white;
+    float: left;
+    width: 37%;
+    padding: 175px 0px 0px 175px;
+}
+.photo{
+    float: right;
+    padding: 100px 200px 0px 0px;
+}
+.content h1{
+    font-size: 50px;
+}
+.content h3{
+    font-size: 25px;
+}
+
+.enjoy_tv-1{
+    height: 550px;
+    text-align: left;
+    margin-top: 10px;
+    background-color: black;
+}
+.content-1{
+    color: white;
+    float: right;
+    width: 37%;
+    padding: 100px 100px 0px 0px;
+    
+}
+.photo-1{
+    float: left;
+    padding: 75px 0px 0px 175px;
+}
+.content-1 h1{
+    font-size: 50px;
+}
+.content-1 h3{
+    font-size: 25px;
+}
+.ask_que{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 75px;
+    height: 850px;
+}
+.ask_que h1{
+    font-size: 45px;
+    font-weight: bolder;
+}
+.ask{
+    height: 40px;
+    background-color: rgb(39, 36, 36);
+    /* text-align: left; */
+    width:75%;
+    margin: 10px 0px 0px 150px;
+    padding: 40px 0px 0px 40px;
+    /* padding-top: 5px; */
+    text-align: justify;
+}
+.ques{
+    float:left;
+    width: 80%;
+}
+.plus{
+    float: right;
+    padding-right: 30px;
+    /* padding-top: 10px; */
+    margin-top: -50px;
+
+}
+.plus span{
+    font-size: 60px;
+}
+.ask p span{
+    /* margin-left: 200px; */
+    /* padding-left: 50%; */
+}
+.ask:hover{
+    background-color: rgb(59, 56, 56);
+    cursor: pointer;
+}
+.ask p{
+    /* margin-top: 5px; */
+    font-size: 25px;
+    /* padding-top: 5px; */
+    margin-top: -17;
+}
+.ask_que .register form input{
+    border: 1px solid green;
+}
+.get_register{
+    margin-top: 50px;
+}
+.nothing{
+    margin-top: 10px;
+    margin-top: 10px;
+    height: 270px;
+    background-color: black;
+    color: white;
+    padding: 100px 200px;
+
+}
+.nothing p a{
+    color: white;
+}
+
+.term1{
+    float:left;
+    width:33%;
+    margin-top: 20px;
+    
+}
+.term1 ul li{
+    list-style-type: none;
+    padding-top: 10px;
+}
+.term1 ul li a{
+    color: white;
+}
+.term2{
+float: left;
+width: 33%;
+margin-top: 20px;
+}
+.term2 ul li{
+    list-style-type: none;
+    padding-top: 10px;
+}
+.term2 ul li a{
+    color: white;
+}
+.term3{
+    float: left;
+    width: 33%;
+    margin-top: 20px;
+}
+.term3 ul li{
+    list-style-type: none;
+    padding-top: 20px;
+}
+.term3 ul li a{
+    color: white;
+}
